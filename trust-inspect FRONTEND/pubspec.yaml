@@ -1,0 +1,28 @@
+name: trust_inspect_mobile
+
+description: TRUST INSPECT — inspector-side mobile app (SIH prototype).
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.5.0
+  geolocator: ^14.0.2
+  image_picker: ^1.2.0
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

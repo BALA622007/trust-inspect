@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+trust_inspect.db
+uploads/
+.env
+.auth_secret

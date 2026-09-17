@@ -1,0 +1,61 @@
+# Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/pubspec.lock
+
+# Android
+frontend/android/.gradle/
+frontend/android/local.properties/
+frontend/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/flutter_export_environment.sh
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+
+# Environment / secrets
+.env
+*.env
+backend/.env
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+# Project authentication secret
+trust-inspect BACKEND/auth_secret
+
+# Flutter generated files
+trust-inspect FRONTEND/.dart_tool/
+trust-inspect FRONTEND/build/
+
+# Python cache
+trust-inspect BACKEND/**/__pycache__/
+trust-inspect BACKEND/**/*.pyc
